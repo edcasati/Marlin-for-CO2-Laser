@@ -45,15 +45,15 @@
 //
 // Steppers
 //
-#define X2_STEP_PIN                         PD12
-#define X2_DIR_PIN                          PC4
-#define X2_ENABLE_PIN                       PE8
-#define X2_CS_PIN                           PA15
+#define Z4_STEP_PIN                         PD12
+#define Z4_DIR_PIN                          PC4
+#define Z4_ENABLE_PIN                       PE8
+#define Z4_CS_PIN                           PA15
 
-#define Z2_STEP_PIN                         PE1
-#define Z2_DIR_PIN                          PE0
-#define Z2_ENABLE_PIN                       PC5
-#define Z2_CS_PIN                           PD11
+#define E0_STEP_PIN                         PE1
+#define E0_DIR_PIN                          PE0
+#define E0_ENABLE_PIN                       PC5
+#define E0_CS_PIN                           PD11
 
 //
 // Heaters / Fans

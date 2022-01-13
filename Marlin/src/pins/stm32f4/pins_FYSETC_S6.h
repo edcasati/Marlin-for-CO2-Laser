@@ -98,20 +98,20 @@
 #define Z_ENABLE_PIN                        PD15
 #define Z_CS_PIN                            PD10
 
-#define E0_STEP_PIN                         PD5
-#define E0_DIR_PIN                          PD6
-#define E0_ENABLE_PIN                       PD4
-#define E0_CS_PIN                           PD7
+#define Y2_STEP_PIN                         PD5
+#define Y2_DIR_PIN                          PD6
+#define Y2_ENABLE_PIN                       PD4
+#define Y2_CS_PIN                           PD7
 
-#define E1_STEP_PIN                         PE6
-#define E1_DIR_PIN                          PC13
-#define E1_ENABLE_PIN                       PE5
-#define E1_CS_PIN                           PC14
+#define Z2_STEP_PIN                         PE6
+#define Z2_DIR_PIN                          PC13
+#define Z2_ENABLE_PIN                       PE5
+#define Z2_CS_PIN                           PC14
 
-#define E2_STEP_PIN                         PE2
-#define E2_DIR_PIN                          PE4
-#define E2_ENABLE_PIN                       PE3
-#define E2_CS_PIN                           PC15
+#define Z3_STEP_PIN                         PE2
+#define Z3_DIR_PIN                          PE4
+#define Z3_ENABLE_PIN                       PE3
+#define Z3_CS_PIN                           PC15
 
 #if HAS_TMC_UART
   //
@@ -136,23 +136,23 @@
   #ifndef Z_SERIAL_RX_PIN
     #define Z_SERIAL_RX_PIN                 PD12
   #endif
-  #ifndef E0_SERIAL_TX_PIN
-    #define E0_SERIAL_TX_PIN                PD3
+  #ifndef Y2_SERIAL_TX_PIN
+    #define Y2_SERIAL_TX_PIN                PD3
   #endif
-  #ifndef E0_SERIAL_RX_PIN
-    #define E0_SERIAL_RX_PIN                PA15
+  #ifndef Y2_SERIAL_RX_PIN
+    #define Y2_SERIAL_RX_PIN                PA15
   #endif
-  #ifndef E1_SERIAL_TX_PIN
-    #define E1_SERIAL_TX_PIN                PC4
+  #ifndef Z2 SERIAL_TX_PIN
+    #define Z2_SERIAL_TX_PIN                PC4
   #endif
-  #ifndef E1_SERIAL_RX_PIN
-    #define E1_SERIAL_RX_PIN                PC5
+  #ifndef Z2_SERIAL_RX_PIN
+    #define Z2_SERIAL_RX_PIN                PC5
   #endif
-  #ifndef E2_SERIAL_TX_PIN
-    #define E2_SERIAL_TX_PIN                PE1
+  #ifndef Z3_SERIAL_TX_PIN
+    #define Z3_SERIAL_TX_PIN                PE1
   #endif
-  #ifndef E2_SERIAL_RX_PIN
-    #define E2_SERIAL_RX_PIN                PE0
+  #ifndef Z3_SERIAL_RX_PIN
+    #define Z3_SERIAL_RX_PIN                PE0
   #endif
 #endif
 
