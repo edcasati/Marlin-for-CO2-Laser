@@ -113,11 +113,11 @@
 #define Z3_ENABLE_PIN                       PE3
 #define Z3_CS_PIN                           PC15
 
-#if HAS_TMC_UART
+//#if HAS_TMC_UART
   //
   // TMC2208/TMC2209 stepper drivers
   //
-
+/*
   #ifndef X_SERIAL_TX_PIN
     #define X_SERIAL_TX_PIN                 PE9
   #endif
@@ -154,7 +154,12 @@
   #ifndef Z3_SERIAL_RX_PIN
     #define Z3_SERIAL_RX_PIN                PE0
   #endif
+   #ifndef Z4_SERIAL_TX_PIN
+     #define Z4_SERIAL_TX_PIN                   PE7
+    #define Z4_SERIAL_RX_PIN        X_SERIAL_TX_PIN
+  #endif
 #endif
+*/
 
 //
 // Temperature Sensors
